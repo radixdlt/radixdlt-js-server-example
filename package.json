@@ -1,0 +1,16 @@
+{
+  "name": "radixdlt-js-server-example",
+  "version": "1.0.0",
+  "description": "Server example using Express.js",
+  "main": "src/server.js",
+  "repository": "https://github.com/radixdlt/radixdlt-js-server-example.git",
+  "author": "Edgars Nemše <edgars.nemse@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "radixdlt": "^0.10.2"
+  },
+  "scripts": {
+    "serve": "node src/server.js"
+  }
+}
