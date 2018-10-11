@@ -484,9 +484,9 @@ qs@6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
-radixdlt@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/radixdlt/-/radixdlt-0.10.0.tgz#6152b48aba3d23937fadeea65a5d6767b3216f13"
+radixdlt@^1.0.0:
+  version "1.0.0-alpha"
+  resolved "https://registry.yarnpkg.com/radixdlt/-/radixdlt-1.0.0-alpha.tgz#28532496710914a5b9a4cef9d1a58249a0e91c02"
   dependencies:
     "@reactivex/rxjs" "^6.2.2"
     axios "^0.18.0"

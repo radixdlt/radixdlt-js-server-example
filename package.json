@@ -7,8 +7,8 @@
   "author": "Edgars Nemše <edgars.nemse@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
-    "radixdlt": "^0.10.2"
+    "express": "^4.16.4",
+    "radixdlt": "^1.0.0-alpha"
   },
   "scripts": {
     "serve": "node src/server.js"
