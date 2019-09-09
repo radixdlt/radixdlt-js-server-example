@@ -1,12 +1,13 @@
 const express = require('express')
 const app = express()
+
 const port = 3000
 
 const radixUniverse = require('radixdlt').radixUniverse
-const ALPHANET = require('radixdlt').RadixUniverse.ALPHANET
+const BETANET = require('radixdlt').RadixUniverse.BETANET_EMULATOR
 const RadixIdentityManager = require('radixdlt').RadixIdentityManager
 
-radixUniverse.bootstrap(ALPHANET)
+radixUniverse.bootstrap(BETANET)
 
 const identityManager = new RadixIdentityManager()
 
@@ -23,6 +24,5 @@ app.get('/', (req, res) => res.send(`My address is ${myAccount.getAddress()}`))
 app.get('/balance', (req, res) => res.send(myAccount.transferSystem.balance))
 
 app.get('/transfers', (req, res) => res.send(myAccount.transferSystem.transactions))
-
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
