@@ -7,7 +7,7 @@
   "author": "Edgars Nemše <edgars.nemse@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "radixdlt": "^1.0.0-alpha"
   },
   "scripts": {
